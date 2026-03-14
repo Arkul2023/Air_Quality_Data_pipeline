@@ -1,0 +1,9 @@
+"""Database and API configuration for the AQ pipeline."""
+
+DB_HOST = "localhost"
+DB_PORT = 5432
+DB_NAME = "air_quality_db"
+DB_USER = "postgres"
+DB_PASSWORD = "newpassword123"
+
+API_URL = "https://api.open-meteo.com/v1/forecast"
